@@ -78,7 +78,7 @@ ffmpeg -f dshow -rtbufsize 4M -video_size 1920x1080 -i video="Azure Kinect 4K Ca
 
 Finalmente en la url designada en el archivo python: app.py -> 127.0.0.1:5000/video_feed se verán reflejados la detección en tiempo real.
 
-# *Importante¨*:
+# *Importante*:
 
 El archivo del modelo "yolo_nas_model.pth" se encuentra en el siguiente enlace: https://drive.google.com/uc?id=112V6OmlFU08omLhxgIFqOKRryNIa9otF&confirm=t
 El modelo debe ser adjuntado en el directorio "backend" antes de hacer el build con docker compose
